@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node app/index.js",
+    "dev": "nodemon --inspect app/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.5.0"
+  }
+}
